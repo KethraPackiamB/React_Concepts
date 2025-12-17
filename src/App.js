@@ -1,9 +1,9 @@
-import './App.css';
-import { Counter } from './Components/Counter';
-import { ToggleTheme } from './Components/ToggleTheme';
-import { UserTable } from './Components/UserTable';
-import { PopUp } from './WelcomeBackPopup/PopUp';
-import { ShowPopUp } from './WelcomeBackPopup/ShowPopUp';
+import "./App.css";
+import { Counter } from "./Components/Counter";
+import { ToggleTheme } from "./Components/ToggleTheme";
+import { UserTable } from "./Components/UserTable";
+import { PopUp } from "./WelcomeBackPopup/PopUp";
+import { ShowPopUp } from "./WelcomeBackPopup/ShowPopUp";
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       {/* <Counter/> */}
       {/* <ToggleTheme/> */}
       {/* <PopUp/> */}
-      <ShowPopUp/>
+      <ShowPopUp />
     </div>
   );
 }
