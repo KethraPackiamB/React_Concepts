@@ -8,7 +8,7 @@ const CartItemRemove = ({item}) => {
     return(
         <div>
             <p>{item.id}-{item.name}</p>
-            <button onClick={()=>dispatch({type : "REMOVE_ITEM", layout : item})}>Remove Item</button>
+            <button onClick={()=>dispatch({type : "REMOVE_ITEM", payload : item})}>Remove Item</button>
             
         </div>
     )

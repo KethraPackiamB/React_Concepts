@@ -9,7 +9,7 @@ const cartReduser = (state,action) => {
             break;
 
         case "REMOVE_ITEM" :
-            return state.filter((item)=>item.id !== action.payload.id)
+           return state.filter(item => item.id !== action.payload.id);
             break; 
 
         default:
@@ -26,6 +26,7 @@ export const CartProvider = ({children}) => {
         {id : "3" , name : "Grapes"}
     ]);
 
+    console.log(cart);
     return(
         <CartContext.Provider value={{cart, dispatch}}>
             {children}
